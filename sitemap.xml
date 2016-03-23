@@ -12,148 +12,50 @@
             
 
 <url>
-	<loc>https://sametkurumahmut.github.io/CustomAssetGenerator/doc/</loc>
-    
-        
-                
-            
-    
-        
-
-
-
-
-
-
-    
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        
-    
-    
-    
-    
-    
-        
-        
-        
-    
-    
-    
-    
-
-
-    
-        
-            
-                
-            
-                
-            
-                
-                    
-                    
-                    <xhtml:link 
-                                rel="alternate"
-                                hreflang="tr"
-                                href="https://sametkurumahmut.github.io/CustomAssetGenerator/tr/doc/"
-                                />
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-        
-        
-        <xhtml:link 
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://sametkurumahmut.github.io/CustomAssetGenerator/doc/"
-                    />
-    
-    
-	
-	
-		<priority>0.9</priority>
-	
-</url>
-        
-    
-        
-            
-
-<url>
 	<loc>https://sametkurumahmut.github.io/CustomAssetGenerator/tr/doc/</loc>
     
         
-                
+    
+        
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+        
+
+    
+        
             
-    
-        
-
-
-
-
-
-
-    
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-        
-    
-    
-    
-    
-
-    
-        
-
-    
-        
+                
             
                 
             
@@ -165,8 +67,6 @@
                                 hreflang="en"
                                 href="https://sametkurumahmut.github.io/CustomAssetGenerator/doc/"
                                 />
-                
-            
                 
             
                 
@@ -197,11 +97,9 @@
             
 
 <url>
-	<loc>https://sametkurumahmut.github.io/CustomAssetGenerator/tr/</loc>
+	<loc>https://sametkurumahmut.github.io/CustomAssetGenerator/doc/</loc>
     
         
-                
-            
     
         
 
@@ -216,8 +114,6 @@
 
 
 
-    
-    
 
 
 
@@ -229,29 +125,20 @@
 
 
 
-
-    
-    
-    
-    
     
         
     
     
     
     
+    
+    
+    
+    
+
 
     
         
-
-    
-        
-            
-                
-            
-                
-            
-                
             
                 
             
@@ -260,9 +147,15 @@
                     
                     <xhtml:link 
                                 rel="alternate"
-                                hreflang="en"
-                                href="https://sametkurumahmut.github.io/CustomAssetGenerator/"
+                                hreflang="tr"
+                                href="https://sametkurumahmut.github.io/CustomAssetGenerator/tr/doc/"
                                 />
+                
+            
+                
+            
+                
+            
                 
             
                 
@@ -273,14 +166,14 @@
         
         <xhtml:link 
                     rel="alternate"
-                    hreflang="tr"
-                    href="https://sametkurumahmut.github.io/CustomAssetGenerator/tr/"
+                    hreflang="en"
+                    href="https://sametkurumahmut.github.io/CustomAssetGenerator/doc/"
                     />
     
     
 	
 	
-		<priority>1.0</priority>
+		<priority>0.9</priority>
 	
 </url>
         
@@ -292,53 +185,47 @@
 	<loc>https://sametkurumahmut.github.io/CustomAssetGenerator/</loc>
     
         
-                
+    
+        
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+        
             
-    
-        
-
-
-
-
-
-
-    
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        
-    
-    
-    
-    
-    
-        
-        
-        
-    
-    
-    
-    
-
-
-    
-        
+                
             
                 
             
@@ -360,14 +247,97 @@
             
                 
             
-                
-            
         
         
         <xhtml:link 
                     rel="alternate"
                     hreflang="en"
                     href="https://sametkurumahmut.github.io/CustomAssetGenerator/"
+                    />
+    
+    
+	
+	
+		<priority>1.0</priority>
+	
+</url>
+        
+    
+        
+            
+
+<url>
+	<loc>https://sametkurumahmut.github.io/CustomAssetGenerator/tr/</loc>
+    
+        
+    
+        
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+        
+
+    
+        
+            
+                
+            
+                
+            
+                
+            
+                
+                    
+                    
+                    <xhtml:link 
+                                rel="alternate"
+                                hreflang="en"
+                                href="https://sametkurumahmut.github.io/CustomAssetGenerator/"
+                                />
+                
+            
+                
+            
+                
+            
+                
+            
+        
+        
+        <xhtml:link 
+                    rel="alternate"
+                    hreflang="tr"
+                    href="https://sametkurumahmut.github.io/CustomAssetGenerator/tr/"
                     />
     
     
