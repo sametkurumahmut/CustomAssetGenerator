@@ -700,4 +700,9 @@ footer .row-fluid {
         font-size: 9px;
     }
 }
+@media (max-width: 767px) {
+    footer {
+        height: 80px;/* Set the fixed height of the footer here */
+    }
+}
 
