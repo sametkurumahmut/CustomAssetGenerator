@@ -90,13 +90,16 @@ body {
     width: 100%;
 }
 body > #wrapper {
-    padding-top: 50px; /* By default, the navbar is 50px high. */
+    padding-top: 50px;
 }
 /*
  * Specifics
  */
 .animate {
     visibility: hidden;
+}
+.blackColor {
+    color: black;
 }
 .caret-right {
     border-bottom: 4px solid transparent;
@@ -113,14 +116,12 @@ body > #wrapper {
     height: 100%;
 }
 .content {
-    /*margin-left: 250px;
-    margin-right: 250px;
-    color: black;
-    text-align: center;*/
     font-size: 17px;
     line-height: 1.5;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
 }
 .content [class^='row'] {
     margin-bottom: 30px;
@@ -150,12 +151,62 @@ body > #wrapper {
 .customAssetColor a:visited {
     color: #55616A;
 }
+.embed-responsive:hover + .youtube-interactive-iframe-border-panel {
+    display: block;
+}
 .emphasisColor {
     color: #8B0000;
 }
+.icon-github-hover,
+.icon-github-hover a:link,
+.icon-github-hover a:visited {
+    color: #55616A;
+}
+.icon-github-hover:hover {
+     color: #323131;
+}
+.icon-linkedin-hover,
+.icon-linkedin-hover a:link,
+.icon-linkedin-hover a:visited {
+    color: #55616A;
+}
+.icon-linkedin-hover:hover {
+     color: #0077b5;
+}
+.icon-mail-hover,
+.icon-mail-hover a:link,
+.icon-mail-hover a:visited {
+    color: #55616A;
+}
+.icon-mail-hover:hover {
+     color: #dd4d40;
+}
+.linkColor,
 .linkColor a:link,
 .linkColor a:visited {
     color: #2C7BC0;
+}
+.text-indent {
+    text-indent: 30px;
+}
+.text-indent a {
+    text-indent: 0px;
+}
+.youtube-interactive-iframe-border-panel {
+    display: none;
+    float: right;
+    height: 64px;
+    margin-right: 3px;
+    width: 100px;
+}
+.youtube-interactive-iframe-border-panel:hover {
+    border-bottom-color: #f2e30d;
+    border-left-color: #7f7c83;
+    border-right-color: #32cd51;
+    border-style: solid;
+    border-top-color: #ff3232;
+    border-width: 1px;
+    display: block;
 }
 .whiteColor,
 .whiteColor a:link,
@@ -171,8 +222,6 @@ body > #wrapper {
 }
 .scroll-arrow-down,
 .scroll-arrow-up {
-    /*position: absolute;
-    bottom: 40px;*/
     left: 0;
     position: relative;
     right: 0;
@@ -204,6 +253,9 @@ a:focus {
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    body > #wrapper {
+        padding-top: 80px;
+    }
     .content-iframe {
         padding-top: 81px;
     }
@@ -234,6 +286,11 @@ a:focus {
         justify-content: center;
     }
 }
+@media (min-width: 992px) {
+    body > #wrapper {
+        padding-top: 94px;
+    }
+}
 @media (max-width: 374px) {
     #navTitle {
         font-size: 10px;
@@ -249,12 +306,12 @@ a:focus {
 
 @font-face {
   font-family: 'icon-fonts';
-  src: url('/CustomAssetGenerator/font/icon-fonts.eot?15697524');
-  src: url('/CustomAssetGenerator/font/icon-fonts.eot?15697524#iefix') format('embedded-opentype'),
-       url('/CustomAssetGenerator/font/icon-fonts.woff2?15697524') format('woff2'),
-       url('/CustomAssetGenerator/font/icon-fonts.woff?15697524') format('woff'),
-       url('/CustomAssetGenerator/font/icon-fonts.ttf?15697524') format('truetype'),
-       url('/CustomAssetGenerator/font/icon-fonts.svg?15697524#icon-fonts') format('svg');
+  src: url('/CustomAssetGenerator/font/icon-fonts.eot?97934019');
+  src: url('/CustomAssetGenerator/font/icon-fonts.eot?97934019#iefix') format('embedded-opentype'),
+       url('/CustomAssetGenerator/font/icon-fonts.woff2?97934019') format('woff2'),
+       url('/CustomAssetGenerator/font/icon-fonts.woff?97934019') format('woff'),
+       url('/CustomAssetGenerator/font/icon-fonts.ttf?97934019') format('truetype'),
+       url('/CustomAssetGenerator/font/icon-fonts.svg?97934019#icon-fonts') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -264,7 +321,7 @@ a:focus {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'icon-fonts';
-    src: url('/CustomAssetGenerator/font/icon-fonts.svg?15697524#icon-fonts') format('svg');
+    src: url('/CustomAssetGenerator/font/icon-fonts.svg?97934019#icon-fonts') format('svg');
   }
 }
 */
@@ -305,6 +362,10 @@ a:focus {
 }
  
 .icon-link:before { content: '\e800'; } /* '' */
+.icon-mail-alt:before { content: '\e801'; } /* '' */
+.icon-github-circled:before { content: '\e802'; } /* '' */
+.icon-linkedin-squared:before { content: '\e803'; } /* '' */
+.icon-exchange:before { content: '\e804'; } /* '' */
 .anchor-link .anchor {
     opacity: 0;
     transition: opacity 0.3s ease-in-out 0.1s;
@@ -357,7 +418,11 @@ a:focus {
     100%{opacity: 1; transform: translateY(0);}
 }
 
-.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed,
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive video {
     border-color: white;
     border-style: solid;
     border-width: 3px;
@@ -650,11 +715,8 @@ a.availableOnAssetStore .tooltip {
 #howToUse ul li {
     color: #2C7BC0;
 }
-#howToUse ul li > .li-context {
-    color: black;
-}
 #intro-header {
-    background: #55616A url("/CustomAssetGenerator/img/CustomAssetGenerator.png") no-repeat center center;
+    background: #55616A url("/CustomAssetGenerator/img/customAssetGenerator/customAssetGenerator.png") no-repeat center center;
     background-position: right bottom;
     background-size: cover;
     height : 100vh;
@@ -678,6 +740,19 @@ a.availableOnAssetStore .tooltip {
     background-size: contain;
     height: 20px;
     width: 20px;
+}
+/*
+ * Responsive CSS
+ */
+@media (min-width: 768px) and (max-width: 991px) {
+    #intro-header {
+        margin-top: -80px;
+    }
+}
+@media (min-width: 992px) {
+    #intro-header {
+        margin-top: -94px;
+    }
 }
 
 footer {
